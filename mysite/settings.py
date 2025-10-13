@@ -135,3 +135,5 @@ REST_FRAMEWORK = {
     ],
     'PAGE_SIZE': 10
 }
+
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]', 'pythonanywhere.com']
